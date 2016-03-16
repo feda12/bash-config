@@ -1,0 +1,55 @@
+# Git aliases
+alias g='git '
+alias gs='git status'
+alias gst='git staged'
+alias gd='git diff'
+
+
+# Mercurial aliases
+alias hgs='hg status'
+alias hgst='hg staged'
+alias hgd='hg diff'
+
+# Git/Mercurial Shared aliases
+alias co="checkout"
+alias ci="commit"
+alias br="branch"
+alias aa="add -A"
+alias staged="diff --cached"
+
+# Change directory
+alias cd1='cd ..'
+alias cd2='cd ../..'
+alias cd3='cd ../../..'
+alias cd4='cd ../../../..'
+alias cd5='cd ../../../../..'
+alias cd6='cd ../../../../../..'
+
+# Aliases
+alias ali='cat ~/.aliases'
+alias edali='vim ~/.aliases && . ~/.profile'
+alias newali='. ~/.profile'
+
+# Bash Commands
+# alias ls='ls -F'
+
+# Vagrant
+alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
+
+#Php
+alias composer="php /usr/local/bin/composer.phar"
+
+ # Tmux
+alias tnew='tmux new -s'
+alias tjoin='tmux a -t'
+alias tlist='tmux list-sessions'
+alias tkill='tmux kill-session -t'
+
+# gradle build
+alias create_jar='gradle task orderCloudJar && cp build/libs/OrderCloudKotlin-all-0.1.0.jar ~/OrderCloudAndroid/app/libs/'
+
+# OrderCloud directories
+alias ocios='cd ~/OrderCloudiOS'
+alias ocand='cd ~/OrderCloudAndroid'
+alias ocswi='cd ~/OrderCloudSwifty'
+alias ockot='cd ~/OrderCloudKotlin'
