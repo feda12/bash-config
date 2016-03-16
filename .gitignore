@@ -1,0 +1,10 @@
+# Ignore everything in home folder
+# Security DUH
+
+*
+
+# Except the files that I actually want to share
+!.gitignore
+!.aliases
+!.tmux.conf
+!.vimrc
