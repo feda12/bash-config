@@ -4,7 +4,6 @@ alias gs='git status'
 alias gst='git staged'
 alias gd='git diff'
 
-
 # Mercurial aliases
 alias hgs='hg status'
 alias hgst='hg staged'
@@ -53,3 +52,6 @@ alias ocios='cd ~/OrderCloudiOS'
 alias ocand='cd ~/OrderCloudAndroid'
 alias ocswi='cd ~/OrderCloudSwifty'
 alias ockot='cd ~/OrderCloudKotlin'
+
+# Miscellenaeous
+alias reload_profile='source ~/.bash_profile'
