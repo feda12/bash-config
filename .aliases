@@ -30,7 +30,7 @@ alias edali='vim ~/.aliases && . ~/.profile'
 alias newali='. ~/.profile'
 
 # Bash Commands
-# alias ls='ls -F'
+alias ls='ls -F'
 
 # Vagrant
 alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
